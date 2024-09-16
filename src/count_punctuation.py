@@ -1,12 +1,12 @@
 def count_punctuation(string):
-    punctuations = [",", ".", "!", "?"]
-    count = 0
+    punctuations = {",", ".", "!", "?"}
+
     # Base case
     if len(string) == 0:
-        return count
+        return 0
     
-    # Recursive
+    # Recursive case
     if string[0] in punctuations:
-        count += 1
-    
-    return count + count_punctuation(string[1:])
+        return 1 + count_punctuation(string[1:])
+    else:
+        return count_punctuation(string[1:])
