@@ -1,5 +1,5 @@
 def factorial(num):
-    if num == 1:
+    if num == 0 or num == 1:
         return 1
-    next_step = num - 1
-    return num * factorial(next_step)
+    
+    return num * factorial(num - 1)
