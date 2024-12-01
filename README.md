@@ -1,7 +1,5 @@
-# de-recursion
+# Data Engineering Bootcamp - Recursion
 
-Instructions for this repo can be found at: 
+## Overview
 
-Part 1: https://l2c.northcoders.com/courses/de2-fun/recursion1
-
-Part 2: https://l2c.northcoders.com/courses/de2-fun/recursion2
+This repository contains work completed as part of the Recursion Sprint during my Data Engineering Bootcamp. 
